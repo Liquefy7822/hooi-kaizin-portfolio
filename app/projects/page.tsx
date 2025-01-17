@@ -15,7 +15,6 @@ export default function Projects() {
         {projects.map((project, index) => (
           <a
             key={index}
-            href={project.url}
             target="_blank"
             rel="noopener noreferrer"
             className="block group hover:opacity-80 transition-opacity duration-200"
