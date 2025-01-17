@@ -55,13 +55,6 @@ export default function Page() {
           instructions in the{" "}
           <a href="/blog/getting-started">Getting Started</a> post.
         </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
       </div>
     </section>
   );
