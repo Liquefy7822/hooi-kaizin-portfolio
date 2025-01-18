@@ -1,3 +1,5 @@
+import React, { useState } from "react"; // Import useState from React
+
 export interface Project {
   title: string;
   year: number;
@@ -26,7 +28,7 @@ export const projects: Project[] = [
 ];
 
 const Portfolio: React.FC = () => {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null); // useState for collapsible logic
 
   const toggleCollapse = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
